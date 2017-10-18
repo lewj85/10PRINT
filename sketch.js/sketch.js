@@ -14,10 +14,11 @@ function draw()
 {
   stroke(255);
   // try changing '0.5' below to 0.1, 0.9, etc
-  if (random(1) < 0.7)
+  if (random(1) < 0.5)
   {
+    // try using x/2, y/2, spacing/2, etc
     line(x, y, x + spacing, y + spacing);
-    // try commenting out the line() above and below and instead use rect():
+    // try commenting out the line() above and in the 'else' below and instead use rect():
     //rect(x, y, spacing, spacing);
   } 
   else 
